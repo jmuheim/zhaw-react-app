@@ -1,21 +1,5 @@
-$emj_achtsam
-$emj_achtsamesAtmen
-$emj_achtsamerKoerper
-$emj_achtsamePausen
-$emj_achtsamesSitzen
-$coach
-$b_goToMain
-$s_onboarding_preparationQuestionnaire_userAnswer1
-$LLMTestanswer
-$LLMTestanswer2
 $LLMTestanswer2Hauptziel
-$LLMTestanswerBegruessung
 $LLMTestanswerHauptziel
-$SelfGrowthEmoji
-$SozialEinfuehrungEmoji
-$SozialEmoji
-$SozialSubModWahl
-$SozialVision
 $ZZFeedbackEistieg1
 $ZZFeedbackHauptziel1
 $ZZFeedbackHauptziel2
@@ -25,9 +9,6 @@ $ZZFeedbackOnboarding3
 $alter
 $coach
 $coachName
-$debugMicroDialogVariablenDefinieren
-$debugMicroDialogWahl
-$eigeneErholungsmomente
 $geschlecht
 $hauptZiel
 $hauptZielErstIdee
@@ -40,7 +21,7 @@ $participantGoal
 $participantGroup
 $participantIntention
 $participantIntentionContent
-$participantName 26, 27, 28, 29, 30, 31, 32
+$participantName
 $platform
 $positiverBegleiter
 $quizSelbstwert1Auswertung
@@ -56,6 +37,7 @@ $quizzSelbstwert3
 $quizzSelbstwert4
 $quizzSelbstwert5
 $quizzSelbstwert6
+$s_onboarding_preparationQuestionnaire_userAnswer1
 $selbstwertQuizEinverstaendnis
 $selbstwertSessionwahl
 $sessionEndNextChoice
@@ -66,14 +48,9 @@ $sgBegleiter
 $sgCorrectNameBegleiter
 $sgInnererBegleiterAnswerToLLM
 $sgPositiverBegleiter
-$sozialEinfuehrungAbgeschlossen
-$sozialSelbstfuersorgeAbgeschlossen
-$sozialSelbstfuersorgeEmoji
 $systemDayInWeek
 $systemDayOfMonth
 $systemHourOfDay
 $systemMonth
 $systemYear
-$testWeiterfahrenAuswahl
-$themenAuswahl
 $vertiefungSMARThauptziel
