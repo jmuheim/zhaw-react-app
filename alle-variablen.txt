@@ -1,56 +1,50 @@
-$LLMTestanswer2Hauptziel
-$LLMTestanswerHauptziel
-$ZZFeedbackEistieg1
-$ZZFeedbackHauptziel1
-$ZZFeedbackHauptziel2
-$ZZFeedbackOnboarding1
-$ZZFeedbackOnboarding2
-$ZZFeedbackOnboarding3
-$alter
-$coach
-$coachName
-$geschlecht
-$hauptZiel
-$hauptZielErstIdee
-$hauptzielErreichungsstandT0
-$hauptzielLLMAnswer1
-$hauptzielUnterstuetzungZielformulierung
-$languageChoice
-$modSelbstwertTimesOfUsage
-$participantGoal
-$participantGroup
-$participantIntention
-$participantIntentionContent
-$participantName
-$platform
-$positiverBegleiter
-$quizSelbstwert1Auswertung
+$LLMTestanswer2Hauptziel => $s_user_hauptzielReaktionAufCoach (Reaktion des Nutzers auf die Reaktion des Coachs auf die Reaktion auf Hauptziel)
+$LLMTestanswerHauptziel => (Wird nicht weiter verwendet im Code)
+$alter => $i_user_alter
+$coach = (Scheint mir redundant zu sein mit $coachName)
+$coachName => $s_coach_name
+$geschlecht => $i_user_geschlecht (Könnte auch String sein, bin unsicher was besser ist)
+$hauptZiel => $t_user_hauptziel_inhalt (Könnte auch String sein, also nur einzeilig)
+$hauptZielErstIdee => $b_user_hauptziel_hatBereitsEines
+$hauptzielErreichungsstandT0 => $b_user_hauptziel_standDerErreichung_t0Onboarding
+$hauptzielLLMAnswer1 => $t_user_hauptziel_inhalt (Bin unsicher, scheint mir aber eigentlich ebenfalls redundant zu sein, deshalb nenne ich sie gleich wie die Variable etwas weiter oben)
+$hauptzielUnterstuetzungZielformulierung => $b_user_hauptziel_moechteSmartUnterstuetzung
+$languageChoice => (System-Variable?)
+$modSelbstwertTimesOfUsage => $i_modSelbstwert_usedXTimes (Oder vielleicht passt $b_modSelbstwert_isFirstUse besser? Ich sehe, dass die Logik nur zwischen erstem und weiteren Betreten unterscheidet)
+$participantGoal => (Scheint mir eine verwaiste Variable zu sein)
+$participantGroup => $s_user_aktuellesModul
+$participantIntention => (Scheint mir redundant zu sein mit $hauptZiel)
+$participantIntentionContent => (Ebenfalls)
+$participantName => $s_user_name (Ist aber vielleicht eine System-Variable, die man nicht umbenennen kann?)
+$platform => (System-Variable?)
+$positiverBegleiter => $s_modSelbstwert_themaLiebevollSein_innererBegleiter_name (Hier werden die Variablen-Namen sehr lang... vielleicht reicht es auch, das Thema/Submodul weg zu lassen, also $s_modSelbstwert_innererBegleiter_name?)
+$quizSelbstwert1Auswertung => (Diese gesamte Logik verstehe ich nicht recht, aber Variable könnte in etwa so heissen: $?_modSelbstwert_einstiegsQuiz_auswertung_???)
 $quizSelbstwert2Auswertung
 $quizSelbstwert3Auswertung
 $quizSelbstwert4Auswertung
 $quizSelbstwert5Auswertung
 $quizSelbstwert6Auswertung
-$quizSelbstwertAuswertungTotal
-$quizzSelbstwert1
+$quizSelbstwertAuswertungTotal => $i_modSelbstwert_einsteigsQuiz_auswertung_anzahlKorrekteAntworten
+$quizzSelbstwert1 => $i_modSelbstwert_einstiegsQuiz_antwort1
 $quizzSelbstwert2
 $quizzSelbstwert3
 $quizzSelbstwert4
 $quizzSelbstwert5
 $quizzSelbstwert6
-$s_onboarding_preparationQuestionnaire_userAnswer1
-$selbstwertQuizEinverstaendnis
-$selbstwertSessionwahl
-$sessionEndNextChoice
-$sg5participantGoal
-$sg5participantGoalCorrect
-$sgActivitiySelection
-$sgBegleiter
-$sgCorrectNameBegleiter
-$sgInnererBegleiterAnswerToLLM
-$sgPositiverBegleiter
-$systemDayInWeek
+$s_onboarding_preparationQuestionnaire_userAnswer1 => (Ich glaube, da hab ich etwas "verchüechlet", die Variable hiess ursprünglich bestimmt nicht so?!)
+$selbstwertQuizEinverstaendnis => $b_modSelbstwert_einstiegsQuiz_sollDurchgefuehrtWerden
+$selbstwertSessionwahl => $i_modSelbstwert_aktuellesThema (oder Submodul)
+$sessionEndNextChoice => (Frage mich, ob man eine Modul-spezifische Variable braucht, oder ob sich das nicht einfach über sinnvolle Kaskaden lösen lässt?)
+$sg5participantGoal => $t_modSelbstwert_themaSelbstvertrauen_ziel_inhalt
+$sg5participantGoalCorrect => $t_modSelbstwert_themaSelbstvertrauen_ziel_istKorrekt
+$sgActivitiySelection => $i_modSelbstwert_themaSelbstvertrauen_aktuelleAktivitaet
+$sgBegleiter => $i_modSelbstwert_themaSelbstvertrauen_aktivitaetInnererBegleiter_begleiterName (Boah, noch länger! Vielleicht sollten wir uns auf gewisse Abkürzungen einigen...?)
+$sgCorrectNameBegleiter => $b_modSelbstwert_themaSelbstvertrauen_aktivitaetInnererBegleiter_begleiterName_istKorrekt (Aaaah, noch länger!!!)
+$sgInnererBegleiterAnswerToLLM => (Wird nicht weiter verwendet im Code)
+$sgPositiverBegleiter => (Scheint mir redundant mit obiger Variable zu sein)
+$systemDayInWeek => (System-Variablen)
 $systemDayOfMonth
 $systemHourOfDay
 $systemMonth
 $systemYear
-$vertiefungSMARThauptziel
+$vertiefungSMARThauptziel => $b_user_hauptziel_moechteWeiteresSmartBeispiel
